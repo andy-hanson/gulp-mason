@@ -1,0 +1,20 @@
+{
+	"name": "gulp-mason",
+	"version": "0.0.0",
+	"description": "Gulp plugin for Mason",
+	"repository": "mason-lang/gulp-mason",
+	"license": "WTFPL",
+	"scripts": {"lint": "eslint index.js"},
+	"dependencies": {
+		"mason-compile": "mason-lang/mason-compile",
+		"mason-node-util": "mason-lang/mason-node-util",
+		"gulp-util": "3.0.7",
+		"through2": "2.0.0",
+		"vinyl-sourcemaps-apply": "0.2.0"
+	},
+	"devDependencies": {
+		"eslint": "1.10.1",
+		"eslint-config-mason": "mason-lang/eslint-config-mason"
+	},
+	"eslintConfig": {"extends": "eslint-config-mason"}
+}
