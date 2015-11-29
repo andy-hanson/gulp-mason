@@ -1,4 +1,4 @@
-[Gulp](http://gulpjs.com) plugin for [Mason](http://mason-lang.org).
+[Mason](http://mason-lang.org) plugin for [Gulp](http://gulpjs.com).
 
 Options described [here](http://mason-lang.org/setup#options).
 
