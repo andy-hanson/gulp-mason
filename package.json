@@ -3,7 +3,7 @@
 	"version": "0.0.0",
 	"description": "Gulp plugin for Mason",
 	"repository": "mason-lang/gulp-mason",
-	"license": "WTFPL",
+	"license": "Unlicense",
 	"scripts": {"lint": "eslint index.js"},
 	"dependencies": {
 		"mason-compile": "mason-lang/mason-compile",
@@ -13,7 +13,7 @@
 		"vinyl-sourcemaps-apply": "0.2.0"
 	},
 	"devDependencies": {
-		"eslint": "1.10.1",
+		"eslint": "2.0.0-alpha-2",
 		"eslint-config-mason": "mason-lang/eslint-config-mason"
 	},
 	"eslintConfig": {"extends": "eslint-config-mason"}

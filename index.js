@@ -17,7 +17,7 @@ const Name = 'gulp-mason'
 
 module.exports = function(opts) {
 	const compiler = new Compiler(opts)
-	return obj(function(file, enc, cb) {
+	return obj(function(file, _enc, cb) {
 		if (file.isNull())
 			cb(null, file)
 		else if (file.isStream()) {
