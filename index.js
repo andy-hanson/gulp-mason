@@ -6,10 +6,10 @@ const
 	log = _0.log, PluginError = _0.PluginError, replaceExtension = _0.replaceExtension,
 	obj = require('through2').obj,
 	applySourceMap = require('vinyl-sourcemaps-apply'),
-	Compiler = require('mason-compile/dist/Compiler').default,
-	CompileError = require('mason-compile/dist/CompileError').default,
-	manglePath = require('mason-compile/dist/private/manglePath').default,
-	_1 = require('mason-node-util/dist/format-compile-error'),
+	Compiler = require('mason-compile/lib/Compiler').default,
+	CompileError = require('mason-compile/lib/CompileError').default,
+	manglePath = require('mason-compile/lib/private/manglePath').default,
+	_1 = require('mason-node-util/lib/format-compile-error'),
 	formatCompileError = _1.default,
 	formatWarning = _1.formatWarning
 
